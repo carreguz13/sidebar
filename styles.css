@@ -247,11 +247,14 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
+  
 }
+
+
 .show-sidebar {
-  transform: translate(0);
-}
+ transform: translate(0);
+ }
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 400px;
